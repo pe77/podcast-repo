@@ -7,6 +7,7 @@ module.exports.GetFeed = function()
     const feed = new Podcast(config.podcast);
 
     /* loop over data and add to feed */
+    /*
     feed.addItem({
         title:  'item title',
         description: 'use this for the content. It can include html.',
@@ -25,6 +26,6 @@ module.exports.GetFeed = function()
         itunesDuration: 12345,
         itunesKeywords: ['javascript','podcast']
     });
-
+    */
     return feed.buildXml();
 }
