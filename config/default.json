@@ -3,7 +3,7 @@
       "secret":"HenriquePauzudo"
     },
     "http":{
-        "basepath":"bw",
+        "basepath":"/bw",
         "port":3033,
         "cache_time":"2 minutes"
     },
