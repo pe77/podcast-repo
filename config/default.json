@@ -3,23 +3,24 @@
       "secret":"HenriquePauzudo"
     },
     "http":{
-        "port":3030,
+        "basepath":"bw",
+        "port":3033,
         "cache_time":"2 minutes"
     },
 
     "podcast":{
         "title":"Bar do Waldemar",
-        "description":"Um podcast sobre relacionamento",
-        "feed_url":"http://162.243.169.239/bw/podcast/rss.xml",
-        "site_url":"http://162.243.169.239/bw",
-        "image_url":"http://162.243.169.239/bw/podcast/image.jpg",
+        "description":"Discusões diversas sobre relacionamentos de uma maneira unica!",
+        "feed_url":"http://162.243.169.239:3033/bw/podcast/rss.xml",
+        "site_url":"http://162.243.169.239:3033/bw",
+        "image_url":"http://162.243.169.239:3033/assets/images/podcast-itunes.jpg",
         "docs":"",
         "author":"Henrique Oliviera",
         "managingEditor":"Handel Meireles",
         "webMaster":"Henrique Oliveira",
         "copyright":"2019 BdW",
         "language":"pt_BR",
-        "categories":["Relacionamento", "Humor", "Nostalgia", "Entrevista", "Debate"],
+        "categories":["Relacionamento", "Humor", "Nostalgia", "Entrevista", "Debate", "Pudim"],
         "pubDate":"Jun 11, 2019 04:25:00 GMT",
         "ttl":"60",
         "itunesAuthor":"Bar do Waldemar",
@@ -31,6 +32,6 @@
             "text": "Entertainment",
             "subcats": [{"text": "Relacionamento"}, {"text": "Humor"}, {"text": "Nostalgia"}, {"text": "Entrevistas"}] 
         },
-        "itunesImage": "http://162.243.169.239/bw/podcast/image-itunes.jpg"
+        "itunesImage": "http://162.243.169.239:3033/assets/images/podcast-itunes.jpg"
     }
   }
