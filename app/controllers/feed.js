@@ -12,7 +12,7 @@ var router 		= express.Router();
 
 
 // devolve o feed
-router.get('/rss.xml', function (req, res, next) {
+router.get(config.http.basepath+'/podcast/rss.xml', function (req, res, next) {
     console.log('foi feed');
 
     // res.response.data = podcast.Generate();
