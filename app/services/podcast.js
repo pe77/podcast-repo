@@ -17,7 +17,7 @@ module.exports.GetFeed = function()
         date: 'Jun 24, 2019', // any format that js Date can parse.
         // lat: 33.417974, //optional latitude field for GeoRSS
         // long: -111.933231, //optional longitude field for GeoRSS
-        enclosure : {url:'...', file:'public/files/1.mp3'}, // optional enclosure
+        enclosure : {url:'http://162.243.169.239:3033/files/1.mp3', file:'public/files/1.mp3'}, // optional enclosure
         itunesAuthor: 'Bar do Waldemar',
         itunesExplicit: true,
         itunesSubtitle: 'Como acontenciam (ou não) os namoricos no nosso tempo de escola',
