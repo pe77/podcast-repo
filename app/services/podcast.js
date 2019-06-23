@@ -7,25 +7,24 @@ module.exports.GetFeed = function()
     const feed = new Podcast(config.podcast);
 
     /* loop over data and add to feed */
-    /*
     feed.addItem({
-        title:  'item title',
-        description: 'use this for the content. It can include html.',
-        url: 'http://example.com/article4?this&that', // link to the item
-        guid: '1123', // optional - defaults to url
-        categories: ['Category 1','Category 2','Category 3','Category 4'], // optional - array of item categories
-        author: 'Guest Author', // optional - defaults to feed author property
-        date: 'May 27, 2012', // any format that js Date can parse.
-        lat: 33.417974, //optional latitude field for GeoRSS
-        long: -111.933231, //optional longitude field for GeoRSS
-        enclosure : {url:'...', file:'public/files/look at this dude.mp3'}, // optional enclosure
-        itunesAuthor: 'Max Nowack',
-        itunesExplicit: false,
-        itunesSubtitle: 'I am a sub title',
-        itunesSummary: 'I am a summary',
-        itunesDuration: 12345,
-        itunesKeywords: ['javascript','podcast']
+        title:  'Relacionamento nos tempos de escola',
+        description: 'Como acontenciam (ou não) os namoricos no nosso tempo de escola',
+        url: '', // link to the item
+        // guid: '1123', // optional - defaults to url
+        categories: ['Escola','Relacionamento','Namoro','Humor'], // optional - array of item categories
+        // author: 'Guest Author', // optional - defaults to feed author property
+        date: 'Jun 24, 2019', // any format that js Date can parse.
+        // lat: 33.417974, //optional latitude field for GeoRSS
+        // long: -111.933231, //optional longitude field for GeoRSS
+        enclosure : {url:'...', file:'public/files/1.mp3'}, // optional enclosure
+        itunesAuthor: 'Bar do Waldemar',
+        itunesExplicit: true,
+        itunesSubtitle: 'Como acontenciam (ou não) os namoricos no nosso tempo de escola',
+        itunesSummary: 'Como acontenciam (ou não) os namoricos no nosso tempo de escola',
+        itunesDuration: 2784,
+        itunesKeywords: ['Escola','Relacionamento','Namoro','Humor', 'Poscast']
     });
-    */
+    
     return feed.buildXml();
 }
