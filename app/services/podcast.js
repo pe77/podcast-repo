@@ -25,6 +25,14 @@ module.exports.GetFeed = function()
         itunesDuration: 2784,
         itunesKeywords: ['Escola','Relacionamento','Namoro','Humor', 'Poscast']
     });
+
+    var xml = feed.buildXml();
+
+    // '</itunes:owner>';
+    xml = xml.replace("</itunes:owner>", "</itunes:owner><itunes:category text=\"Entertainment\"/>");
+
+
+    return xml;
     
     return feed.buildXml();
 }
