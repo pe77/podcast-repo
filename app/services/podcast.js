@@ -29,7 +29,7 @@ module.exports.GetFeed = function()
     var xml = feed.buildXml();
 
     // '</itunes:owner>';
-    xml = xml.replace("</itunes:owner>", "</itunes:owner><itunes:category text=\"Entertainment\"/>");
+    xml = xml.replace("</itunes:owner>", '</itunes:owner><itunes:category text="Society &amp; Culture"><itunes:category text="Relationships" /></itunes:category>');
 
 
     return xml;
