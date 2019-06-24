@@ -31,7 +31,7 @@ module.exports.GetFeed = function()
     // '</itunes:owner>';
     xml = xml.replace("</itunes:owner>", "</itunes:owner><itunes:category text=\"Comedy\"/>");
 
-    xml = xml.replace("</copyright>", "</copyright><language><![CDATA[pt_BR]]></language>");
+//    xml = xml.replace("</copyright>", "</copyright><language><![CDATA[pt_BR]]></language>");
 
     // </copyright><language><![CDATA[pt_BR]]></language>
 
