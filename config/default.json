@@ -29,8 +29,7 @@
         "itunesOwner":{ "name": "Primolino Barbosa", "email": "paulohwbarbosa@gmail.com" },
         "itunesExplicit":true,
         "itunesCategory": {
-            "text": "Entertainment",
-            "subcats": [{"text": "Relacionamento"}, {"text": "Humor"}, {"text": "Nostalgia"}, {"text": "Entrevistas"}] 
+            "text": "Entertainment"
         },
         "itunesImage": "http://162.243.169.239:3033/assets/images/podcast-itunes.jpg"
     }
