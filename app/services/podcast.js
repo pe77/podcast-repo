@@ -11,7 +11,7 @@ module.exports.GetFeed = function()
         title:  'Relacionamento nos tempos de escola',
         description: 'Como acontenciam (ou não) os namoricos no nosso tempo de escola',
         url: '', // link to the item
-        guid: '1', // optional - defaults to url
+        // guid: '1', // optional - defaults to url
         categories: ['Escola','Relacionamento','Namoro','Humor'], // optional - array of item categories
         // author: 'Guest Author', // optional - defaults to feed author property
         date: 'Jun 24, 2019', // any format that js Date can parse.
