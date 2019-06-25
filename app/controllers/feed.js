@@ -17,8 +17,8 @@ router.get(config.http.basepath+'/podcast/rss.xml', function (req, res, next) {
 
     // res.response.data = podcast.Generate();
     
-    // res.contentType('application/rss+xml')
-    res.contentType('application/xml')
+    res.contentType('application/rss+xml')
+    // res.contentType('application/xml')
     res.send(podcast.GetFeed());
 
     return next();
