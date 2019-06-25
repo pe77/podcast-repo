@@ -11,7 +11,7 @@ module.exports.GetFeed = function()
         title:  'Relacionamento nos tempos de escola',
         description: 'Como acontenciam (ou não) os namoricos no nosso tempo de escola',
         url: '', // link to the item
-        // guid: '1123', // optional - defaults to url
+        guid: '1', // optional - defaults to url
         categories: ['Escola','Relacionamento','Namoro','Humor'], // optional - array of item categories
         // author: 'Guest Author', // optional - defaults to feed author property
         date: 'Jun 24, 2019', // any format that js Date can parse.
@@ -23,13 +23,18 @@ module.exports.GetFeed = function()
         itunesSubtitle: 'Como acontenciam (ou não) os namoricos no nosso tempo de escola',
         itunesSummary: 'Como acontenciam (ou não) os namoricos no nosso tempo de escola',
         itunesDuration: 2784,
-        itunesKeywords: ['Escola','Relacionamento','Namoro','Humor', 'Poscast']
+        itunesKeywords: ['Escola','Relacionamento','Namoro','Humor', 'Poscast'],
+        itunesImage: "http://162.243.169.239:3033/files/1.jpg",
+        image_url: "http://162.243.169.239:3033/files/1.jpg"
+        // customElements: [{'itunes:category': {_attr:{text:"Comedy"}}}]
     });
+
+    // https://github.com/dylang/node-xml
 
     var xml = feed.buildXml();
 
     // '</itunes:owner>';
-    xml = xml.replace("</itunes:owner>", "</itunes:owner><itunes:category text=\"Comedy\"/>");
+    // xml = xml.replace("</itunes:owner>", "</itunes:owner><itunes:category text=\"Comedy\"/>");
 
 //    xml = xml.replace("</copyright>", "</copyright><language><![CDATA[pt_BR]]></language>");
 
