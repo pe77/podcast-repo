@@ -28,9 +28,6 @@
         "itunesSummary":"Discusões diversas sobre relacionamentos de uma maneira unica!",
         "itunesOwner":{ "name": "Henrique Oliveira", "email": "qplok02@gmail.com" },
         "itunesExplicit":true,
-        "customElements":[
-          {"itunes:category": {"_attr":{"text":"Comedy"}}}
-        ],
         "itunesImage": "http://162.243.169.239:3033/assets/images/podcast-itunes.jpg"
     }
   }
